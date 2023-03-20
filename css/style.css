@@ -1,0 +1,339 @@
+@import "style/fonts.css";
+.wrapper {
+  max-width: 1376px;
+  min-height: 964px;
+}
+
+.block-login {
+  width: 1385px;
+  height: 1171px;
+}
+
+.form-block {
+  width: 624px;
+}
+.form-block__title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #172239;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-block__subtitle {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6d6d78;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+}
+.form-block__label-item {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #6d6d78;
+  display: block;
+}
+.form-block__svg-img {
+  top: 48px;
+  left: 20px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+.form-block__svg-pass::before {
+  content: url("/msg.svg");
+  top: 38px;
+  left: 20px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+}
+.form-block__label-input {
+  width: 100%;
+  height: 64px;
+  border-radius: 20px;
+  border: solid 1px #eaeaea;
+  font-size: 20px;
+  line-height: 1.2px;
+  color: #6d6d78;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-block__label-input:hover {
+  -webkit-transition: border 0.5s;
+  transition: border 0.5s;
+  border: 1px solid deepskyblue;
+}
+
+.button-block {
+  position: relative;
+  bottom: 30px;
+}
+.button-block__login {
+  display: block;
+  margin-top: 400px;
+  margin-bottom: 25px;
+  width: 624px;
+  height: 66px;
+  background-color: #ffdfd6;
+  border-radius: 20px;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #172239;
+  font-style: normal;
+}
+.button-block__registration {
+  display: block;
+  width: 624px;
+  height: 66px;
+  background-color: #ffdfd6;
+  border-radius: 20px;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #172239;
+  font-style: normal;
+}
+
+.stepOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1385px;
+  height: 900px;
+  padding: 64px 0 64px 0;
+}
+
+.block-left {
+  width: 624px;
+  height: 964px;
+  text-align: center;
+  margin-right: 50px;
+}
+.block-left__border {
+  width: 624px;
+  height: 844px;
+  border: solid 1.25px lightgray;
+  border-radius: 70px;
+  padding: 32px;
+}
+.block-left__title {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #172239;
+  margin-bottom: 10px;
+}
+.block-left__subtitle {
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 32px;
+  color: #fb779f;
+  margin-bottom: 100px;
+}
+
+.spinner-block__img {
+  margin: 0 auto;
+  width: 336px;
+  height: 100px;
+  margin-bottom: 200px;
+}
+.spinner-block__title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #172239;
+  max-width: 383px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.spinner-block__subtitle {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6d6d78;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.stepTwo {
+  display: none;
+}
+
+.wrapper {
+  width: 688px;
+  height: 964px;
+}
+
+.steps {
+  width: 624px;
+  text-align: center;
+  display: none;
+}
+.steps__title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #172239;
+  margin-bottom: 10px;
+}
+.steps__subtitle {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6d6d78;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.block-curse {
+  width: 624px;
+  height: 239px;
+}
+.block-curse__title {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: #172239;
+  margin-bottom: 5px;
+}
+.block-curse__subtitle {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: normal;
+  color: grey;
+  max-width: 215px;
+  margin: 0 auto;
+}
+.block-curse__subtitle-width {
+  max-width: 150px;
+}
+.block-curse__img {
+  width: 64px;
+  height: 64px;
+  background-color: #52c3ff;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.block-curse__img-two {
+  width: 64px;
+  height: 64px;
+  background-color: pink;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.block-curse__border-input {
+  border: solid 2px deepskyblue;
+  border-radius: 30px;
+  border: solid 2px lightgray;
+  border-radius: 30px;
+  padding: 32px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.button-block__next-width {
+  display: block;
+  margin-top: 120px;
+  border-radius: 20px;
+  width: 624px;
+  height: 66px;
+  background-color: #ffdfd6;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+form, input {
+  display: block;
+}
+
+.container {
+  max-width: 624px;
+  min-height: 834px;
+  margin: 0 auto;
+}
+
+.section-login__register-title {
+  max-width: 624px;
+  min-height: 99px;
+  padding-bottom: 30px;
+}
+.section-login__title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #172239;
+}
+.section-login__subtitle {
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 26px;
+  color: #6D6D78;
+}
+
+.form-block__label-item {
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 24px;
+  color: #6D6D78;
+}
+.form-block__svg-span::before {
+  content: url("../style/xv.svg");
+  top: 38px;
+  left: 20px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+}
+.form-block__svg-pass::before {
+  content: url("style/nr.svg");
+  top: 38px;
+  left: 20px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+}
+.form-block__label-input {
+  width: 100%;
+  min-height: 64px;
+  padding: 16px 16px 16px 66px;
+  border-radius: 20px;
+  border: solid 1px #eaeaea;
+  font-size: 20px;
+  line-height: 1.2px;
+  color: #6d6d78;
+}
+.form-block__label-input:hover {
+  -webkit-transition: border 0.5s;
+  transition: border 0.5s;
+  border: 1px solid deepskyblue;
+}

@@ -1,0 +1,89 @@
+@import "style/fonts.css";
+@import "../style/loginStyle.scss";
+@import "stepTwo";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+form, input {
+  display: block;
+}
+
+
+.container {
+  max-width: 624px;
+  min-height: 834px;
+  margin: 0 auto;
+}
+
+.section-login {
+  &__register-title {
+    max-width: 624px;
+    min-height: 99px;
+    padding-bottom: 30px;
+  }
+
+
+  &__title {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #172239;
+  }
+  &__subtitle {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 26px;
+    color: #6D6D78;
+  }
+
+}
+
+.form-block {
+  &__label-item {
+    position: relative;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 24px;
+    color: #6D6D78;
+  }
+  &__svg-span::before {
+    content: url("../style/xv.svg");
+    top: 38px;
+    left: 20px;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+  }
+
+  &__svg-pass::before{
+    content: url("style/nr.svg");
+    top: 38px;
+    left: 20px;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+  }
+
+  &__label-input {
+    width: 100%;
+    min-height: 64px;
+    padding: 16px 16px 16px 66px;
+    border-radius: 20px;
+    border: solid 1px  #eaeaea;
+    font-size: 20px;
+    line-height: 1.2px;
+    color: #6d6d78;
+  }
+
+  &__label-input:hover {
+    transition: border 0.5s;
+    border : 1px solid deepskyblue;
+  }
+}

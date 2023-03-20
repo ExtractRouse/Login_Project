@@ -1,0 +1,42 @@
+.form-block__label-item {
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 24px;
+  color: #6D6D78;
+}
+.form-block__svg-span::before {
+  content: url("../style/xv.svg");
+  top: 38px;
+  left: 20px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+}
+.form-block__svg-pass::before {
+  content: url("style/nr.svg");
+  top: 38px;
+  left: 20px;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+}
+.form-block__label-input {
+  width: 100%;
+  min-height: 64px;
+  padding: 16px 16px 16px 66px;
+  border-radius: 20px;
+  border: solid 1px #eaeaea;
+  font-size: 20px;
+  line-height: 1.2px;
+  color: #6d6d78;
+}
+.form-block__label-input:hover {
+  -webkit-transition: border 0.5s;
+  transition: border 0.5s;
+  border: 1px solid deepskyblue;
+}
+
+.button-block {
+  background-color: deepskyblue;
+}
