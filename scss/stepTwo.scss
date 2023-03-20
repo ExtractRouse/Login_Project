@@ -30,10 +30,10 @@
 
 .block-curse {
   width: 624px;
-  height: 239px;
-
-  &__wrapper {
-
+  height: 900px;
+  &__wrapper-border {
+    width: 624px;
+    height: 240px;
   }
   &__title {
     font-family: Montserrat, sans-serif;
@@ -73,20 +73,18 @@
     margin: 0 auto;
     margin-bottom: 20px;
   }
-  &__icon {
-  }
 }
 
 .block-curse {
-  &__border-input {
-    border: solid 2px deepskyblue;
-  border-radius: 30px;
-    border: solid 2px lightgray;
-    border-radius: 30px;
-    padding: 32px;
-    text-align: center;
-    margin-top: 40px;
+  margin-bottom: -620px;
+  &__wrapper-border {
+    width: 624px;
+    height: 239px;
   }
+
+
+
+
 }
 
 .button-block__next-width {

@@ -206,7 +206,11 @@
 
 .block-curse {
   width: 624px;
-  height: 239px;
+  height: 900px;
+}
+.block-curse__wrapper-border {
+  width: 624px;
+  height: 240px;
 }
 .block-curse__title {
   font-family: Montserrat, sans-serif;
@@ -243,14 +247,13 @@
   margin: 0 auto;
   margin-bottom: 20px;
 }
-.block-curse__border-input {
-  border: solid 2px deepskyblue;
-  border-radius: 30px;
-  border: solid 2px lightgray;
-  border-radius: 30px;
-  padding: 32px;
-  text-align: center;
-  margin-top: 40px;
+
+.block-curse {
+  margin-bottom: -620px;
+}
+.block-curse__wrapper-border {
+  width: 624px;
+  height: 239px;
 }
 
 .button-block__next-width {
