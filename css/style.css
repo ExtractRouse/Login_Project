@@ -298,6 +298,60 @@
   border-color: #52c3ff;
 }
 
+.stepThree {
+  width: 623px;
+  height: 900px;
+  display: none;
+}
+.stepThree__header {
+  width: 624px;
+  height: 99px;
+  margin-bottom: 20px;
+}
+.stepThree__title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  text-align: center;
+  color: #172239;
+  font-family: "Montserrat", sans-serif;
+}
+.stepThree__subtitle {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  color: #6d6d78;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form-block {
+  width: 624px;
+  height: 834px;
+}
+.form-block__label-item {
+  display: block;
+  margin-bottom: 14px;
+  z-index: 2;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  color: #6d6d78;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button-block__next-width_next-two {
+  display: block;
+  margin-top: -174px;
+  border-radius: 20px;
+  width: 624px;
+  height: 66px;
+  background-color: #ffdfd6;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
