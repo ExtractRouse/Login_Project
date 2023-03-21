@@ -81,10 +81,16 @@
     width: 624px;
     height: 239px;
   }
-
-
-
-
+  &__label-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 31px 32px 32px;
+    box-sizing: border-box;
+    border-radius: 32px;
+    border: solid 2px #eaeaea;
+    cursor: pointer;
+  }
 }
 
 .button-block__next-width {
@@ -94,4 +100,18 @@
   width: 624px;
   height: 66px;
   background-color: #ffdfd6;
+}
+.block-curse input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.block-curse input:checked ~ .block-curse__label-input {
+  border-color: #52c3ff;
 }
