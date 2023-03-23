@@ -29,7 +29,7 @@ paginationBtnLeft.onclick = (e) => {
    paginationBtnRight.style.width = "6px";
    paginationBtnRight.style.height = "7px";
    paginationBtnRight.style.backgroundColor = "gray";
-   paginationBtnRight.style.borderRadius = "5px";
+   paginationBtnRight.style.borderRadius = "5px";''
 
 }
 
