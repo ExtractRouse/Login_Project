@@ -115,3 +115,16 @@
 .block-curse input:checked ~ .block-curse__label-input {
   border-color: #52c3ff;
 }
+.pagination-btn__left {
+  display: inline-block;
+  width: 16px;
+  height: 7px;
+  background-color: #52c3ff;
+  border-radius: 5px;
+}
+.pagination-btn__right {
+  width: 6px;
+  height: 7px;
+  background-color: gray;
+  border-radius: 5px;
+}
